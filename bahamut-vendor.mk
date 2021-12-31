@@ -164,7 +164,7 @@ PRODUCT_PACKAGES += \
 	CameraAddonPermission \
     CameraCommonPermission \
 	CameraExtensionPermission \
-	CameraCommon
+	CameraCommon \
 	ImageProcessorPermission \
 	com.quicinc.cne.api@1.0 \
     com.quicinc.cne.api@1.1 \
