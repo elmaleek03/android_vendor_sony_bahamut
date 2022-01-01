@@ -161,7 +161,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     SemcCameraUI-xxhdpi-release \
-    CameraCommon \	
+    CameraCommon \
 	CameraAddonPermission \
     CameraCommonPermission \
 	CameraExtensionPermission \

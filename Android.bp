@@ -179,7 +179,7 @@ dex_import {
 android_app_import {
   name: "CameraAddonPermission",
   owner: "sony",
-  apk: "proprietary/app/CameraAddonPermission/CameraAddonPermission.apk",
+  apk: "proprietary/product/app/CameraAddonPermission/CameraAddonPermission.apk",
   certificate: "platform",
   dex_preopt: {
     enabled: false,
@@ -189,7 +189,7 @@ android_app_import {
 android_app_import {
   name: "CameraCommonPermission",
   owner: "sony",
-  apk: "proprietary/app/CameraCommonPermission/CameraCommonPermission.apk",
+  apk: "proprietary/product/app/CameraCommonPermission/CameraCommonPermission.apk",
   certificate: "platform",
   dex_preopt: {
     enabled: false,
@@ -199,7 +199,7 @@ android_app_import {
 android_app_import {
   name: "CameraExtensionPermission",
   owner: "sony",
-  apk: "proprietary/app/CameraExtensionPermission/CameraExtensionPermission.apk",
+  apk: "proprietary/product/app/CameraExtensionPermission/CameraExtensionPermission.apk",
   certificate: "platform",
   dex_preopt: {
     enabled: false,
@@ -209,7 +209,7 @@ android_app_import {
 android_app_import {
   name: "ImageProcessorPermission",
   owner: "sony",
-  apk: "proprietary/app/ImageProcessorPermission/ImageProcessorPermission.apk",
+  apk: "proprietary/product/app/ImageProcessorPermission/ImageProcessorPermission.apk",
   certificate: "platform",
   dex_preopt: {
     enabled: false,
@@ -219,7 +219,7 @@ android_app_import {
 android_app_import {
   name: "CameraCommon",
   owner: "sony",
-  apk: "proprietary/priv-app/CameraCommon/CameraCommon.apk",
+  apk: "proprietary/product/priv-app/CameraCommon/CameraCommon.apk",
   certificate: "platform",
   dex_preopt: {
     enabled: false,
