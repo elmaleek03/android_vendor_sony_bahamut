@@ -176,3 +176,54 @@ dex_import {
 	jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
+android_app_import {
+  name: "CameraAddonPermission",
+  owner: "sony",
+  apk: "proprietary/app/CameraAddonPermission/CameraAddonPermission.apk",
+  certificate: "platform",
+  dex_preopt: {
+    enabled: false,
+  },
+}
+
+android_app_import {
+  name: "CameraCommonPermission",
+  owner: "sony",
+  apk: "proprietary/app/CameraCommonPermission/CameraCommonPermission.apk",
+  certificate: "platform",
+  dex_preopt: {
+    enabled: false,
+  },
+}
+
+android_app_import {
+  name: "CameraExtensionPermission",
+  owner: "sony",
+  apk: "proprietary/app/CameraExtensionPermission/CameraExtensionPermission.apk",
+  certificate: "platform",
+  dex_preopt: {
+    enabled: false,
+  },
+}
+
+android_app_import {
+  name: "ImageProcessorPermission",
+  owner: "sony",
+  apk: "proprietary/app/ImageProcessorPermission/ImageProcessorPermission.apk",
+  certificate: "platform",
+  dex_preopt: {
+    enabled: false,
+  },
+}
+
+android_app_import {
+  name: "CameraCommon",
+  owner: "sony",
+  apk: "proprietary/priv-app/CameraCommon/CameraCommon.apk",
+  certificate: "platform",
+  dex_preopt: {
+    enabled: false,
+  },
+  privileged: true,
+}
+

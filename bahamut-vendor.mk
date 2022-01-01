@@ -161,10 +161,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     SemcCameraUI-xxhdpi-release \
+    CameraCommon \	
 	CameraAddonPermission \
     CameraCommonPermission \
 	CameraExtensionPermission \
-	CameraCommon \
 	ImageProcessorPermission \
 	com.quicinc.cne.api@1.0 \
     com.quicinc.cne.api@1.1 \
