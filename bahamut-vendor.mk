@@ -13,6 +13,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/bahamut/proprietary/etc/sysconfig/semccamera-sysconfig.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/semccamera-sysconfig.xml \
     vendor/sony/bahamut/proprietary/framework/com.sonymobile.imageprocessor.bypasscamera_impl.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonymobile.imageprocessor.bypasscamera_impl.jar \
     vendor/sony/bahamut/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
+    vendor/sony/bahamut/proprietary/lib/android.hidl.base@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hidl.base@1.0.so \
+    vendor/sony/bahamut/proprietary/lib/android.hidl.manager@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hidl.manager@1.0.so \
     vendor/sony/bahamut/proprietary/lib/libcacao_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_client.so \
     vendor/sony/bahamut/proprietary/lib/libcacao_pal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_pal.so \
     vendor/sony/bahamut/proprietary/lib/libcacao_process_ctrl_gateway.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_process_ctrl_gateway.so \
@@ -24,6 +26,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/bahamut/proprietary/lib/vendor.somc.hardware.camera.cacao@3.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.cacao@3.1.so \
     vendor/sony/bahamut/proprietary/lib/vendor.somc.hardware.camera.cacao@3.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.cacao@3.2.so \
     vendor/sony/bahamut/proprietary/lib/vendor.somc.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.device@1.0.so \
+    vendor/sony/bahamut/proprietary/lib64/android.hidl.base@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hidl.base@1.0.so \
+    vendor/sony/bahamut/proprietary/lib64/android.hidl.manager@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hidl.manager@1.0.so \
     vendor/sony/bahamut/proprietary/lib64/libcacao_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcacao_client.so \
     vendor/sony/bahamut/proprietary/lib64/libcacao_pal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcacao_pal.so \
     vendor/sony/bahamut/proprietary/lib64/libimageprocessorjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimageprocessorjni.so \
