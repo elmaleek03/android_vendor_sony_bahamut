@@ -159,13 +159,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/bahamut/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@1.1.so \
     vendor/sony/bahamut/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so
 
-PRODUCT_PACKAGES += \
-    SemcCameraUI-xxhdpi-release \
-    CameraCommon \
-	CameraAddonPermission \
-    CameraCommonPermission \
-	CameraExtensionPermission \
-	ImageProcessorPermission \
+PRODUCT_PACKAGES += \	
 	com.quicinc.cne.api@1.0 \
     com.quicinc.cne.api@1.1 \
     com.quicinc.cne.constants@1.0 \
