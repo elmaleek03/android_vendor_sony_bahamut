@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/bahamut/proprietary/lib64/libcacao_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcacao_client.so \
     vendor/sony/bahamut/proprietary/lib64/libcacao_pal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcacao_pal.so \
     vendor/sony/bahamut/proprietary/lib64/libimageprocessorjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimageprocessorjni.so \
-    vendor/sony/bahamut/proprietary/product/priv-app/CameraCommon/CameraCommon.apk:$(TARGET_COPY_OUT_PRODUCT)/priv-app/CameraCommon/CameraCommon.apk \    
+    vendor/sony/bahamut/proprietary/product/priv-app/CameraCommon/CameraCommon.apk:$(TARGET_COPY_OUT_PRODUCT)/priv-app/CameraCommon/CameraCommon.apk \
     vendor/sony/bahamut/proprietary/product/app/CameraAddonPermission/CameraAddonPermission.apk:$(TARGET_COPY_OUT_PRODUCT)/app/CameraAddonPermission/CameraAddonPermission.apk \
     vendor/sony/bahamut/proprietary/product/app/CameraCommonPermission/CameraCommonPermission.apk:$(TARGET_COPY_OUT_PRODUCT)/app/CameraCommonPermission/CameraCommonPermission.apk \
     vendor/sony/bahamut/proprietary/product/app/CameraExtensionPermission/CameraExtensionPermission.apk:$(TARGET_COPY_OUT_PRODUCT)/app/CameraExtensionPermission/CameraExtensionPermission.apk \
@@ -168,7 +168,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/bahamut/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@1.1.so \
     vendor/sony/bahamut/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so
 
-PRODUCT_PACKAGES += \	
+PRODUCT_PACKAGES += \
 	com.quicinc.cne.api@1.0 \
     com.quicinc.cne.api@1.1 \
     com.quicinc.cne.constants@1.0 \
