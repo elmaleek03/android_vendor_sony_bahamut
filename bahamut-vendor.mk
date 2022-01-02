@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/bahamut/proprietary/lib64/libcacao_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcacao_client.so \
     vendor/sony/bahamut/proprietary/lib64/libcacao_pal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcacao_pal.so \
     vendor/sony/bahamut/proprietary/lib64/libimageprocessorjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimageprocessorjni.so \
+    vendor/sony/bahamut/proprietary/product/priv-app/CameraCommon/CameraCommon.apk:$(TARGET_COPY_OUT_PRODUCT)/product/priv-app/CameraCommon/CameraCommon.apk \    
     vendor/sony/bahamut/proprietary/product/app/CameraAddonPermission/CameraAddonPermission.apk:$(TARGET_COPY_OUT_PRODUCT)/product/app/CameraAddonPermission/CameraAddonPermission.apk \
     vendor/sony/bahamut/proprietary/product/app/CameraCommonPermission/CameraCommonPermission.apk:$(TARGET_COPY_OUT_PRODUCT)/product/app/CameraCommonPermission/CameraCommonPermission.apk \
     vendor/sony/bahamut/proprietary/product/app/CameraExtensionPermission/CameraExtensionPermission.apk:$(TARGET_COPY_OUT_PRODUCT)/product/app/CameraExtensionPermission/CameraExtensionPermission.apk \
@@ -38,8 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/bahamut/proprietary/product/etc/permissions/com.sonymobile.camera.addon.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.sonymobile.camera.addon.xml \
     vendor/sony/bahamut/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
     vendor/sony/bahamut/proprietary/product/framework/com.sonymobile.camera.addon_impl.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.sonymobile.camera.addon_impl.jar \
-    vendor/sony/bahamut/proprietary/product/priv-app/CameraCommon/CameraCommon.apk:$(TARGET_COPY_OUT_PRODUCT)/product/priv-app/CameraCommon/CameraCommon.apk \   
-   vendor/sony/bahamut/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
+    vendor/sony/bahamut/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/sony/bahamut/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/sony/bahamut/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/sony/bahamut/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
