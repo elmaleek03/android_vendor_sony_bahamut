@@ -102,17 +102,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "datastatusnotification",
-	owner: "sony",
-	apk: "proprietary/system_ext/app/datastatusnotification/datastatusnotification.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "embms",
 	owner: "sony",
 	apk: "proprietary/system_ext/app/embms/embms.apk",
@@ -175,6 +164,4 @@ dex_import {
 	owner: "sony",
 	jars: ["proprietary/framework/WfdCommon.jar"],
 }
-
-
 
